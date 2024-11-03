@@ -46,8 +46,12 @@ cd ISITECH-Lyon-Kubernetes/docs
 
 - [Documentation officielle de Kubernetes](https://kubernetes.io/docs/)
 - [Références Docker](https://docs.docker.com/)
-- [Guide de déploiement Kubernetes - Isitech](/docs/deployment-guide.md)
+
+
+- [Cours Kubernetes - Isitech](/docs/README.md)
+- [Scripts pour les VMs - Isitech](/scripts/README.md)
 
 ---
 
 Pour toute question ou problème, n'hésitez pas à ouvrir une *issue* ou à contacter Tancrède Suard directement.
+Toute PR constructive est la bienvenue !
