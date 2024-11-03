@@ -36,14 +36,12 @@ Pour commencer avec les exemples et exercices, suivez les instructions ci-dessou
 
 1. **Clonez le dépôt** :
 ```bash
-git clone https://github.com/isitech/kubernetes-course.git
+git clone https://github.com/tancou/ISITECH-Lyon-Kubernetes.git
 ```
 2. **Accédez au répertoire du cours** :
 ```bash
-cd kubernetes-course
+cd ISITECH-Lyon-Kubernetes/docs
 ```
-3. **Installez les dépendances nécessaires** en fonction des exigences de chaque exercice (cf. `/docs/setup.md`).
-
 ## Ressources et Documentation
 
 - [Documentation officielle de Kubernetes](https://kubernetes.io/docs/)
