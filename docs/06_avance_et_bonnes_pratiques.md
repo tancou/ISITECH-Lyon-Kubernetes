@@ -2,6 +2,8 @@
 
 Ce chapitre couvre des fonctionnalités avancées de Kubernetes pour optimiser les performances, garantir la haute disponibilité et faciliter la maintenance du cluster. Nous abordons également les meilleures pratiques pour gérer un environnement Kubernetes en production.
 
+Diapo [pdf](06_avance_et_bonnes_pratiques.pdf)
+
 ## 6.1 Gestion de la Scalabilité et de la Haute Disponibilité
 
 La scalabilité et la haute disponibilité sont deux aspects clés pour assurer la résilience des applications et des clusters Kubernetes. 

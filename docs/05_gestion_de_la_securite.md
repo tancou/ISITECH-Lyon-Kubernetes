@@ -2,6 +2,8 @@
 
 La sécurité est un aspect essentiel de la gestion d’un cluster Kubernetes, en particulier dans un environnement de production où les applications sont exposées à divers risques. Dans ce chapitre, nous abordons les principaux concepts de sécurité dans Kubernetes, notamment le contrôle des accès, la gestion des réseaux et la protection des informations sensibles.
 
+Diapo [pdf](05_gestion_de_la_securite.pdf)
+
 ## 5.1 Contrôle d’Accès Basé sur les Rôles (RBAC)
 
 **RBAC (Role-Based Access Control)** permet de gérer les permissions et de restreindre les actions des utilisateurs ou des applications au sein d’un cluster Kubernetes. Grâce à RBAC, vous pouvez limiter les accès et les actions, augmentant ainsi la sécurité de votre environnement.

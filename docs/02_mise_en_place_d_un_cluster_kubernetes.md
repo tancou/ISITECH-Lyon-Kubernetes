@@ -2,6 +2,8 @@
 
 Ce chapitre couvre la mise en place d’un cluster Kubernetes en utilisant **k3sup**, un outil léger et rapide pour déployer Kubernetes sur des environnements légers ou dans le cloud. Nous aborderons les étapes nécessaires pour préparer et configurer un cluster Kubernetes opérationnel.
 
+Diapo [pdf](02_mise_en_place_d_un_cluster_kubernetes.pdf)
+
 ## 2.1 Préparation de l’Environnement
 
 Avant de déployer Kubernetes, il est important de préparer l’environnement cible, qu'il s'agisse de machines locales, de machines virtuelles ou de serveurs en cloud.

@@ -2,6 +2,8 @@
 
 Ce premier chapitre introduit Kubernetes, les défis auxquels il répond et son architecture générale. L’objectif est de vous fournir une compréhension claire de son rôle et de son fonctionnement dans la gestion d’applications conteneurisées.
 
+Diapo [pdf](01_introduction_au_concept_de_kubernetes.pdf)
+
 ## 1.1 Pourquoi Kubernetes ?
 
 Les applications modernes, composées de multiples services, doivent être déployées, mises à jour et gérées de manière efficace et sans interruption. Kubernetes apporte une solution pour orchestrer ces applications en offrant :

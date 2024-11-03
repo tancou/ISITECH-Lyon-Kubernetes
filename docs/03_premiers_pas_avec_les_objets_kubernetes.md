@@ -2,6 +2,8 @@
 
 Dans ce chapitre, nous allons explorer les objets de base de Kubernetes qui permettent de déployer, exposer et gérer des applications dans un cluster. Ces concepts sont essentiels pour comprendre comment Kubernetes orchestre les conteneurs.
 
+Diapo [pdf](03_premiers_pas_avec_les_objets_kubernetes.pdf)
+
 ## 3.1 Concepts Fondamentaux des Objets Kubernetes
 
 Kubernetes organise les applications à l'aide de plusieurs objets, chacun ayant un rôle bien défini dans le cluster. Les objets de base incluent :

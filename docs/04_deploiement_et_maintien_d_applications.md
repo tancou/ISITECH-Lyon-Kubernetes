@@ -2,6 +2,8 @@
 
 Dans ce chapitre, nous abordons le déploiement d’applications dans Kubernetes et les pratiques essentielles pour maintenir ces applications en production, y compris la mise à l’échelle, les mises à jour continues et les stratégies de surveillance.
 
+Diapo [pdf](04_deploiement_et_maintien_d_applications.pdf)
+
 ## 4.1 Déploiement d’une Application Basique
 
 Un déploiement dans Kubernetes définit l’état souhaité pour un ensemble de pods, permettant à Kubernetes de maintenir cet état en gérant le nombre de réplicas et en appliquant les mises à jour des conteneurs.
