@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: py-env-cm
+data:
+  variable1: "3"
+  variable2: "user-interface.properties"
+  monfichier.txt: |
+    coucou
+    ceci est un fichier 
+    en plusieurs lignes :D

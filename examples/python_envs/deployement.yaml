@@ -23,8 +23,26 @@ spec:
         ports:
         - containerPort: 5000
         env:
+          - name: MA_DB_IP
+            value: 'monip.local'
           - name: SECRET_KEY
             valueFrom:
               secretKeyRef:
-                key: MON_SECRET
                 name: py-env-secret
+                key: MON_SECRET
+          - name: VARIABLE_1
+            valueFrom:
+              configMapKeyRef:
+                name: py-env-cm
+                key: variable1
+        volumeMounts:
+          - name: config
+            mountPath: "/config"
+            readOnly: true
+      volumes:
+        - name: config
+          configMap:
+            name: py-env-cm
+            items:
+              - key: "monfichier.txt"
+                path: "monfichier.txt"
