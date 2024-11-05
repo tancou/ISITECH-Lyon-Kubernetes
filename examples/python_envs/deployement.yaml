@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: py-env
+  labels:
+    app: py-env
+spec:
+  replicas: 3
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: py-env
+  template:
+    metadata:
+      labels:
+        app: py-env
+    spec:
+      containers:
+      - name: web
+        image: tancou/py-env:1.0.0
+        imagePullPolicy: Always
+#        image: traefik/whoami
+        ports:
+        - containerPort: 5000
