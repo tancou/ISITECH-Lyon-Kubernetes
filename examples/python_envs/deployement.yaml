@@ -6,8 +6,8 @@ metadata:
     app: py-env
 spec:
   replicas: 3
-  strategy:
-    type: Recreate
+#  strategy:
+#    type: Recreate
   selector:
     matchLabels:
       app: py-env
@@ -18,8 +18,10 @@ spec:
     spec:
       containers:
       - name: web
-        image: tancou/py-env:1.0.0
+        image: tancou/py-env:1.1.0
         imagePullPolicy: Always
-#        image: traefik/whoami
         ports:
         - containerPort: 5000
+        env:
+          - name: SECRET_KEY
+            value: ma-valeur-peu-securisee
