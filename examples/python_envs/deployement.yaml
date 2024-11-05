@@ -24,4 +24,7 @@ spec:
         - containerPort: 5000
         env:
           - name: SECRET_KEY
-            value: ma-valeur-peu-securisee
+            valueFrom:
+              secretKeyRef:
+                key: MON_SECRET
+                name: py-env-secret
