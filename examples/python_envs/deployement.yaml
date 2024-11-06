@@ -35,6 +35,13 @@ spec:
               configMapKeyRef:
                 name: py-env-cm
                 key: variable1
+        resources:
+          requests:
+            memory: "50Mi"
+            cpu: "30m"
+          limits:
+            memory: "200Mi"
+            cpu: "300m"
         volumeMounts:
           - name: config
             mountPath: "/config"
