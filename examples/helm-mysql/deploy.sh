@@ -28,3 +28,14 @@ helm upgrade \
   --set db.host=db1-mysql \
   db1-pma \
   bitnami/phpmyadmin
+
+helm upgrade \
+  --install \
+  --namespace tancrede-grafana \
+  --create-namespace \
+  --set admin.password='superpassword' \
+  --set persistence.size=3Gi \
+  --set ingress.enabled=true \
+  --set ingress.hostname="monitoring.k8s.isitech.tancou.fr" \
+  grafana \
+  bitnami/grafana
